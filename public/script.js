@@ -7,7 +7,7 @@ const myPeer = new Peer(undefined, {
 const myVideo = document.createElement("video");
 myVideo.muted = true;
 const peers = {};
-window.navigator.mediaDevices
+navigator.mediaDevices
   .getUserMedia({
     video: true,
     audio: true,
